@@ -1,0 +1,9 @@
+<h1>Stories</h1>
+
+<p>This is where stories will be... some day.</p>
+
+<ul>
+  <% @stories.each do |story| %>
+    <li><%=story["data"]["title"] %></li>
+  <% end %>
+</ul>
